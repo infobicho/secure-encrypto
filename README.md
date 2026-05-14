@@ -44,8 +44,10 @@ secure-encrypto uses modern cryptographic standards:
 ```bash
 git clone https://github.com/infobicho/secure-encrypto.git
 cd secure-encrypto
-
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
+pip install -r requirements-dev.txt
 python main.py
 ```
 
