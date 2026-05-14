@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secure-encrypto"
+version = "1.0.0"
+description = "Secure desktop file encryption tool using AES-256-GCM and Argon2id"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "infobicho" }
+]
+keywords = [
+    "encryption",
+    "aes",
+    "argon2id",
+    "security",
+    "cryptography",
+    "desktop-app"
+]
+
+dependencies = [
+    "cryptography",
+    "argon2-cffi",
+    "customtkinter"
+]
+
+[tool.setuptools.packages.find]
+include = ["secure_encrypto*"]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true

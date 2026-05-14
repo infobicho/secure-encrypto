@@ -1,0 +1,9 @@
+# Dépendances de développement et de test
+# Installer avec : pip install -r requirements-dev.txt
+
+# Tests
+pytest>=8.0.0
+pytest-cov>=5.0.0
+
+# Qualité de code (optionnel mais recommandé)
+ruff>=0.4.0

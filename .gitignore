@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.tar.gz
+*.zip
+dist/
+build/
+
+*.tar.gz
+*.zip
+build/
+dist/
+__pycache__/
+venv/
